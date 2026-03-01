@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "FlipHTML5 to PDF Downloader",
+  "version": "1.0",
+  "description": "Chrome extension to extract page images from FlipHTML5 books and combine them into a single PDF.",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.fliphtml5.com/*",
+    "*://*.fliphtml5.net/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
